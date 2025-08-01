@@ -1,0 +1,21 @@
+# -------- Voice Input Module --------
+SpeechRecognition==3.10.0   # For converting voice to text
+PyAudio==0.2.11             # Microphone audio input for SpeechRecognition
+
+# -------- Gesture Input Module --------
+opencv-python==4.9.0.80     # For video capture and image processing
+mediapipe==0.10.21           # For real-time hand gesture recognition
+
+# -------- MQTT Communication --------
+paho-mqtt==1.6.1            # To send commands to ESP32 over MQTT protocol
+
+# -------- Chatbot Assistant Module --------
+nltk==3.8.1                 # Natural Language Toolkit (for chatbot logic)
+tkintertable               # Optional - for GUI chatbot interface (if using Tkinter GUI)
+
+# -------- Scheduler & Logging --------
+schedule==1.2.0             # For periodic tasks like reminders/alerts
+pandas==2.2.2               # For usage log tracking and data aggregation
+
+
+
